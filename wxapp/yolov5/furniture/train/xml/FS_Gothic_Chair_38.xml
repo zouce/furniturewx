@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Gothic_Chair_38.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Gothic_Chair_38.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>418</width>
+		<height>632</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>65</ymin>
+			<xmax>387</xmax>
+			<ymax>531</ymax>
+		</bndbox>
+	</object>
+</annotation>

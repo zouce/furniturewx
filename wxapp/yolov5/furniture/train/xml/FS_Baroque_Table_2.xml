@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Baroque_Table_2.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Baroque_Table_2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>544</width>
+		<height>472</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>4</xmin>
+			<ymin>54</ymin>
+			<xmax>544</xmax>
+			<ymax>445</ymax>
+		</bndbox>
+	</object>
+</annotation>

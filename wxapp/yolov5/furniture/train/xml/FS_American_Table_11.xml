@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_American_Table_11.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_American_Table_11.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>370</width>
+		<height>446</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>54</xmin>
+			<ymin>14</ymin>
+			<xmax>340</xmax>
+			<ymax>424</ymax>
+		</bndbox>
+	</object>
+</annotation>

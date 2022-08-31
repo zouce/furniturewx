@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_American_Chair_35.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_American_Chair_35.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>451</width>
+		<height>564</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chair</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>157</xmin>
+			<ymin>8</ymin>
+			<xmax>445</xmax>
+			<ymax>564</ymax>
+		</bndbox>
+	</object>
+</annotation>

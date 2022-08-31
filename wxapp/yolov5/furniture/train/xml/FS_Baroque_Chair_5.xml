@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Baroque_Chair_5.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Baroque_Chair_5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>602</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>20</xmin>
+			<ymin>99</ymin>
+			<xmax>459</xmax>
+			<ymax>591</ymax>
+		</bndbox>
+	</object>
+</annotation>

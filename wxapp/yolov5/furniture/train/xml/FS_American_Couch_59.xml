@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_American_Couch_59.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_American_Couch_59.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>527</width>
+		<height>372</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>couch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>61</ymin>
+			<xmax>491</xmax>
+			<ymax>341</ymax>
+		</bndbox>
+	</object>
+</annotation>

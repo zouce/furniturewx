@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Gothic_Cabinet_25.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Gothic_Cabinet_25.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabinet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>242</xmin>
+			<ymin>5</ymin>
+			<xmax>533</xmax>
+			<ymax>767</ymax>
+		</bndbox>
+	</object>
+</annotation>

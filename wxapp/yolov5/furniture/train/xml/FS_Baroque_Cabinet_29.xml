@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Baroque_Cabinet_29.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Baroque_Cabinet_29.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>787</width>
+		<height>1028</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabinet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>255</xmin>
+			<ymin>279</ymin>
+			<xmax>652</xmax>
+			<ymax>926</ymax>
+		</bndbox>
+	</object>
+</annotation>

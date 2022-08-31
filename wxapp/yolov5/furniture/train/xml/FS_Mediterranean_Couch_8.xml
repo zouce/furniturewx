@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Mediterranean_Couch_8.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Mediterranean_Couch_8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>couch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>13</xmin>
+			<ymin>198</ymin>
+			<xmax>753</xmax>
+			<ymax>645</ymax>
+		</bndbox>
+	</object>
+</annotation>

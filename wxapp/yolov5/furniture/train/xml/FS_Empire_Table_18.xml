@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Empire_Table_18.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Empire_Table_18.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1281</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>286</ymin>
+			<xmax>1253</xmax>
+			<ymax>1120</ymax>
+		</bndbox>
+	</object>
+</annotation>

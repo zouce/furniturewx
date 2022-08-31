@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Mediterranean_Cabinet_16.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Mediterranean_Cabinet_16.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>425</width>
+		<height>605</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabinet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>302</ymin>
+			<xmax>402</xmax>
+			<ymax>565</ymax>
+		</bndbox>
+	</object>
+</annotation>

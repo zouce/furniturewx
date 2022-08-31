@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Gothic_Bed_8.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Gothic_Bed_8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>636</width>
+		<height>809</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>20</xmin>
+			<ymin>30</ymin>
+			<xmax>596</xmax>
+			<ymax>789</ymax>
+		</bndbox>
+	</object>
+</annotation>

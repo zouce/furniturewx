@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Japanese_Cabinet_29.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Japanese_Cabinet_29.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>620</width>
+		<height>618</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabinet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>286</ymin>
+			<xmax>514</xmax>
+			<ymax>597</ymax>
+		</bndbox>
+	</object>
+</annotation>

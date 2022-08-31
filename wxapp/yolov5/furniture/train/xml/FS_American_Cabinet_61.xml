@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_American_Cabinet_61.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_American_Cabinet_61.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4612</width>
+		<height>3468</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cabinet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>200</xmin>
+			<ymin>334</ymin>
+			<xmax>4439</xmax>
+			<ymax>3340</ymax>
+		</bndbox>
+	</object>
+</annotation>

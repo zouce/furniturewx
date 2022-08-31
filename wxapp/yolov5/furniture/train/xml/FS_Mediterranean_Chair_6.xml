@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Mediterranean_Chair_6.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Mediterranean_Chair_6.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>650</width>
+		<height>697</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>106</xmin>
+			<ymin>83</ymin>
+			<xmax>558</xmax>
+			<ymax>626</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Baroque_Couch_36.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Baroque_Couch_36.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>couch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>152</ymin>
+			<xmax>546</xmax>
+			<ymax>553</ymax>
+		</bndbox>
+	</object>
+</annotation>

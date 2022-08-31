@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Baroque_Bed_7.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Baroque_Bed_7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4928</width>
+		<height>3264</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>199</xmin>
+			<ymin>202</ymin>
+			<xmax>4640</xmax>
+			<ymax>3085</ymax>
+		</bndbox>
+	</object>
+</annotation>

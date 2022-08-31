@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Empire_Couch_7.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Empire_Couch_7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1522</width>
+		<height>937</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>couch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>68</ymin>
+			<xmax>1496</xmax>
+			<ymax>931</ymax>
+		</bndbox>
+	</object>
+</annotation>

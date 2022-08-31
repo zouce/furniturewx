@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Gothic_Couch_2.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Gothic_Couch_2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2272</width>
+		<height>1704</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>couch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>107</xmin>
+			<ymin>175</ymin>
+			<xmax>2170</xmax>
+			<ymax>1625</ymax>
+		</bndbox>
+	</object>
+</annotation>

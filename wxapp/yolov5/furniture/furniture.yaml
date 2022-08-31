@@ -1,0 +1,6 @@
+train: furniture/train  # train images (relative to 'path') 128 images
+val: furniture/train  # val images (relative to 'path') 128 images
+
+# Classes
+nc: 5  # number of classes
+names: ['bed', 'cabinet', 'chair', 'couch', 'table']

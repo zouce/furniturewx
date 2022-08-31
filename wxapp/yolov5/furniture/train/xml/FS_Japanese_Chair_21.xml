@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Japanese_Chair_21.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Japanese_Chair_21.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>876</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>76</xmin>
+			<ymin>144</ymin>
+			<xmax>537</xmax>
+			<ymax>839</ymax>
+		</bndbox>
+	</object>
+</annotation>

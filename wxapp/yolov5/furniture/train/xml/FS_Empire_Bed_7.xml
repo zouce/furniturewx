@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>FS_Empire_Bed_7.jpg</filename>
+	<path>E:\yolov5\furniture\train\images\FS_Empire_Bed_7.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1681</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bed</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>96</xmin>
+			<ymin>115</ymin>
+			<xmax>1577</xmax>
+			<ymax>1150</ymax>
+		</bndbox>
+	</object>
+</annotation>
