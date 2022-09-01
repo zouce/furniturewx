@@ -11,26 +11,22 @@ from wxapp.yolov5.detect import run
 from wxapp.style_code.predict import style
 import cv2
 import time
-
-def index(request):
-    response = requests.get('http://47.94.2.45:8000/tips',params={'test':'test'}).json()
-    return JsonResponse(response)
+from wxapp.Mask_RCNN.detect import detect
 
 
-def classify(request):
+def getphoto(request):
     print('classify===================================================')
     data = json.loads(request.body)
     dirid = data.get('id')
     img_base64 = data.get('img_base64')
     img = base64.b64decode(img_base64)
-    response = requests.get('http://47.94.2.45:8000/classify',params={'img_base64':123}).json()
-    print(response)
+    #response = requests.get('http://47.94.2.45:8000/classify',params={'img_base64':123}).json()
+    #print(response)
     filepath = '/home/zouce/furniturewx/wxapp/static/classify/img' + dirid
     if not os.path.exists(filepath):
         JsonResponse({'result':'error'})
     print('classify1============================================================')
     imglist = os.listdir(filepath)
-    imglist.sort()
     pid = len(imglist)
     img_url = filepath + '/p' + str(pid) +'.jpg'
     with open(img_url,'wb') as f:
@@ -63,7 +59,7 @@ def getid(request):
 
 
 def getresult(request):
-    time.sleep(1)
+    time.sleep(2)
     print('getresut=============================================')
     data = json.loads(request.body)
     imgid = data.get('id')
@@ -86,9 +82,12 @@ def getresult(request):
             imgmsg['imgclass'] = int(imgclass[0][5])
         imgstyle = style(imgpath)
         imgmsg['imgstyle'] = imgstyle
-        mask = [{'class':'shelf','p':0.916887,'position':[137,76,296,321]},{'class':'drawer','p':0.90571535,'position':[140,166,171,263]}]
-        imgmsg['mask'] = mask
-        #imgmsg['mask'] = requests.get('http://82.156.91.202:8000/maskrcnn',{'imgid':imgid, 'imgname':imgname})
+        #mask = [{'class':'shelf','p':0.916887,'position':[137,76,296,321]},{'class':'drawer','p':0.90571535,'position':[140,166,171,263]}]
+        #imgmsg['mask'] = mask
+        imgmsg['mask'] = detect(imgpath,imgmsg['imgclass'])
+        #imgmsg['mask']
+        #response = requests.get('http://82.156.91.202:8000/maskrcnn',{'imgid':imgid, 'imgname':imgname, 'imgclass': imgmsg['imgclass']}).json()
+        #imgmsg['mask'] = response['mask']
         res_data.append(imgmsg)
         print(imgmsg)
     print(res_data)
